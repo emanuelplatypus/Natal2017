@@ -25,7 +25,7 @@ var close = document.getElementById('close');
 
 function drawList()
 {
-	people.innerHTML = '<option value="">Quem é você?</option>';
+	people.innerHTML = '<option value="">Quem e voce?</option>';
 	for (var i = give.length - 1; i >= 0; i--) {
 		var option = document.createElement('option');
 		option.value = i;
