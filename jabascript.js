@@ -13,7 +13,7 @@ var give = ['Rosana',
 'Elizabete',
 'Dayane',
 'Carol',
-'&#194;ngela',
+'Angela',
 'Ana'];
 
 var receive = give.concat();
