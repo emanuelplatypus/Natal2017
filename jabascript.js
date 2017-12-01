@@ -13,7 +13,7 @@ var give = ['Rosana',
 'Elizabete',
 'Dayane',
 'Carol',
-'Ângela',
+'&#194;ngela',
 'Ana'];
 
 var receive = give.concat();
@@ -25,7 +25,7 @@ var close = document.getElementById('close');
 
 function drawList()
 {
-	people.innerHTML = '<option value="">Quem é você?</option>';
+	people.innerHTML = '<option value="">Quem Ã© vocÃª?</option>';
 	for (var i = give.length - 1; i >= 0; i--) {
 		var option = document.createElement('option');
 		option.value = i;
@@ -53,8 +53,8 @@ function selectPerson(person)
 	{
 		receive.push(name);
 	}
-	result.innerHTML = "<h2>" + name + ", você tirou " + recipientName + "!</h2>";
-	close.innerHTML = "<br><br><br><br><br><br>Okay. Clique aqui para apagar o nome da pessoa que você tirou.";
+	result.innerHTML = "<h2>" + name + ", vocÃª tirou " + recipientName + "!</h2>";
+	close.innerHTML = "<br><br><br><br><br><br>Okay. Clique aqui para apagar o nome da pessoa que vocÃª tirou.";
 	if(give.length > 0)
 	{
 		drawList();
