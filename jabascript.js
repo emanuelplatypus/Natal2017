@@ -6,7 +6,6 @@ window.onload = function()
 
 var give = ['Rosana',
 'Rosa',
-'Rafael',
 'Poliana',
 'Manoel',
 'Lucas',
@@ -15,7 +14,6 @@ var give = ['Rosana',
 'Fernanda',	    
 'Elizabete',
 'Dayane',
-'Carol',
 'Ângela',
 'Ana'];
 
